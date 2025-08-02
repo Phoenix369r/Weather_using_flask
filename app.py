@@ -31,7 +31,7 @@ def index():
 
     cities = City.query.all()
 
-    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=bcf33f6d3d5c4adb65e4667de5783b7c'
+    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=your_api_key'
 
     weather_data = []
 
